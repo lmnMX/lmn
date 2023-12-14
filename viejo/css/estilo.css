@@ -1,0 +1,178 @@
+
+body
+{
+	width:900px;
+	background-image:url('../imagenes/fondo1.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	background-color:#ffffff;
+	margin:0px auto 0px auto;
+}
+
+#centro
+{
+	width:900px;
+	margin:0px 0px 0px 0px;
+}
+
+#flotar
+{
+	width:900px;
+	float:left;
+}
+
+#header
+{
+	width:900px;
+	height:80px;
+	float:left;
+}
+
+#logo
+{
+	width:250px;
+	height:80px;
+	background-image:url('../imagenes/logo.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:top;
+	float:left;
+}
+
+#botones
+{
+	width:650px;
+	height:80px;
+	float:left;
+}
+
+#menu {
+				margin:35px 0px 0px 0px;
+				width:650px;
+				font-family:"Times New Roman", Times, serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				color:#333333;
+				text-decoration:none;
+				padding:5px 20px 0px 0px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				/*background-color:#CCC;*/
+				color:#003;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				background-image:url('../imagenes/fondobtn.png');
+				padding:0px 0px 0px 0px;
+				z-index:999999;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				margin:0px 0px 0px 0px;
+				top:0px;
+				display: none; 
+		        background-image:url('../imagenes/fondobtnsub.png');
+		        padding: 0px 0px;
+		        position:relative;
+				z-index:999999;
+			}
+			
+			.point
+			{
+				font-size:20px;
+				margin:-15px 0px 0px 0px;
+			}
+		
+		#esp
+		{
+			margin:0px 0px 0px 40px;
+			font-size:13px;
+		}
+		
+		#eng
+		{
+			margin:0px 0px 0px -5px;
+			font-size:13px;
+		}
+		
+		.btn1
+		{
+			margin:0px 0px 0px -20px;
+		}
+
+#banner
+{
+	width:900px;
+	height:350px;
+	float:left;
+	margin:0px 0px 20px 0px;
+	}
+
+#texto
+{
+	width:780px;
+	height:110px;
+	float:left;
+	margin:10px 0px 0px 120px;
+}
+
+#texto_c
+{
+	width:780px;
+	height:190px;
+	float:left;
+	margin:10px 0px 0px 120px;
+}
+
+#titulo
+{
+	text-align:justify;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:18px;
+	color:#003;
+}
+
+#textos
+{
+	text-align:justify;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:12px;
+}
+
+.dom
+{
+	font-size:15px;
+}
+
+#footer
+{
+	width:900px;
+	height:40px;
+	float:left;
+}
+
+
+
+
